@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from scipy.ndimage.interpolation import shift
 from tqdm import tqdm
+import os
 
 MAX_ACTION = 150
 data_folder = "/mnt/tongyan.zjy/data/kuairand/KuaiRand-27K/data/"
