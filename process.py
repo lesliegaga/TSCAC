@@ -5,7 +5,7 @@ from scipy.ndimage.interpolation import shift
 from tqdm import tqdm
 
 MAX_ACTION = 150
-data_folder = "/data1/zhxue/kuairand/data/KuaiRand-27K/data/"
+data_folder = "/mnt/tongyan.zjy/data/kuairand/KuaiRand-27K/data/"
 
 # ================== read data ======================
 print("loading data...")
