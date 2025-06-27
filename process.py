@@ -132,6 +132,7 @@ rewards[:, -1] = rewards[:, -1]/10000
 print("Parsing data ok. Saving to disk...")
 train_num = 450000
 small_num = 10000
+os.makedirs(data_folder+'parsed_data', exist_ok=True)
 with open(data_folder+'parsed_data/train_states.npy', 'wb+') as f:
     np.save(f, state[:train_num])
 with open(data_folder+'parsed_data/train_next_states.npy', 'wb+') as f:
